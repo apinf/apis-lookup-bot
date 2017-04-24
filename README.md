@@ -8,6 +8,12 @@
 
 - [CLI](https://github.com/apinf/apis-lookup-bot/blob/master/screenshots/cli.png)
 
+### Ideas
+
+As current implementation involves only APIs search by keyword, there is a suggestion to extend the functionality by adding a possibility to request API analytics for selected API or a number of APIs.
+
+This can be achieved by using [chartjs-node](https://github.com/vmpowerio/chartjs-node) on server-side to "render" chart showing API responses over time, save chart image to a file and pass it to a bot.
+
 ### Setup
 
 1. Initial setup
