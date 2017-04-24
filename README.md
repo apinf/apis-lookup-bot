@@ -1,6 +1,6 @@
 # apis-lookup-bot
 
-> API Bot for searching APIs on APInf.
+> API Bot for searching APIs hosted on APInf.
 
 ### Screenshots
 
