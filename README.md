@@ -4,13 +4,9 @@
 
 ### Screenshots
 
-##### Telegram
+- [Telegram](https://github.com/apinf/apis-lookup-bot/blob/master/screenshots/telegram.png)
 
-![Image](https://github.com/apinf/apis-lookup-bot/blob/master/screenshots/telegram.png)
-
-#### CLI
-
-![Image](https://github.com/apinf/apis-lookup-bot/blob/master/screenshots/cli.png)
+- [CLI](https://github.com/apinf/apis-lookup-bot/blob/master/screenshots/cli.png)
 
 ### Setup
 
