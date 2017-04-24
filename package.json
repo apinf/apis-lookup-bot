@@ -1,0 +1,28 @@
+{
+  "name": "apis-lookup-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/apinf/search-apis-chat-bot.git",
+  "license": "EUPL-1.1",
+  "scripts": {
+    "start": "yarn run build && node index.js",
+    "lint": "./node_modules/.bin/eslint src",
+    "build": "yarn run clean && ./node_modules/.bin/babel src --out-dir lib",
+    "clean": "./node_modules/.bin/rimraf ./lib"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "canvas": "^1.6.5",
+    "chalk-log": "^1.2.0",
+    "lodash": "^4.17.4",
+    "palm": "^0.0.22"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^3.19.0",
+    "rimraf": "^2.6.1",
+    "standard": "^10.0.2"
+  }
+}
